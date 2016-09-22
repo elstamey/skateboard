@@ -4,13 +4,15 @@ author:
   twitter: elstamey
   url: http://elstamey.com
 output: index.html
-theme: matmuchrapna/cleaver-ribbon
+theme: iamstarkov/cleaver-ribbon
+style: my-style.css
 controls: true
+progress: true
 
---
+-- cover
 
-# Cleaver 101
-## A first look at quick HTML presentations
+## Whats Your Skateboard?
+![Lego StarWars Figures riding a hoverboard, a skateboard, and a bicycle](img/cover_picture.jpg)
 
 --
 
