@@ -22,24 +22,60 @@ photo by [Kenny Louie(https://www.flickr.com/photos/kwl/)
 ![User Story Mapping by Jeff Patton](img/book.jpg)
 --
 
-##What we will learn
+#Learning Objectives
 
-1. How to build a story map
-2. We will build a small map
-3. We will talk about a project that used this technique
-
---
-
-![2](img/2.jpg)
+1. How to story map
+2. Sketch a small map
+3. Critique the Scholarships story map
 
 --
 
-#Why use User Story Mapping?
+#Who Story Maps?
 
-- Builds shared understanding
-- Encourages Discovery before Implementation
-- Includes all stakeholders in the discussion
-- Organizes work to be done
+Everyone who knows the process
+Not Just Developers
+
+--
+
+#What is a Story Map?
+
+A diagram of a project that identifies the stories of the people and systems involved in a process.
+
+Detail is added as we learn more about the project
+
+The project can be an existing application or a new application.
+
+--
+#Why Story Map?
+
+- Build shared understanding
+- Encourage discovery before implementation
+- Include all stakeholders in the discussion
+- Organize work to be done
+
+--
+
+#When should you Story Map?
+
+- When you have questions about an application or process
+
+- When you begin new work
+
+- Preferably before you being development
+
+--
+
+#Where?
+
+A large, clear wall or whiteboard.
+
+--
+
+#You'll need
+
+- painter's tape
+- markers
+- post-its (many colors)
 
 --
 
