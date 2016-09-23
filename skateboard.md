@@ -16,7 +16,25 @@ progress: true
 
 photo by [Kenny Louie(https://www.flickr.com/photos/kwl/)
 
+-- me
+
+#Emily Stamey
+Application Developer at NC State University
+
+![crochet hooks](img/crochet.png)
+![developer](img/developer.png)
+![family](img/family.png)
+![kayak](img/kayak.png)
+![rollerskate](img/skate_icon.png)
+![violin](img/violin.png)
+
 --
+
+--
+
+--
+
+
 ##Ripped from the pages of (not really)
 
 ![User Story Mapping by Jeff Patton](img/book.jpg)
@@ -28,7 +46,7 @@ photo by [Kenny Louie(https://www.flickr.com/photos/kwl/)
 2. Sketch a small map
 3. Critique the Scholarships story map
 
---
+-- 
 
 #Who should Story Map?
 
@@ -52,7 +70,7 @@ The project can be an existing application or a new application.
 - Include all stakeholders in the discussion
 - Organize work to be done
 
---
+-- cover
 
 #The big picture
 
@@ -61,7 +79,7 @@ The project can be an existing application or a new application.
 Photo by [Barnyz](https://www.flickr.com/photos/75487768@N04/8852553227/in/photolist-h8HTU3-JSeov4-h8HPQd-h8HWim-e5dUvX-5fR919-aB8Zp5-sbN2aF-n43Zp-nAUXRk-pw3kjL-qrSmhY-jSiBep-pYPm8B-eugDE4-4Tx3Rt-gUegPw-2Ri5uw-s8m2Qd-7j49P5-reXhVH-dCFW2M-eeoR86-8h1TkG-gsrTKm-4Nxays-dpe7UV-eDky7z-5j5d7W-oXXQy1-nY2L7h-mCqdmy-8RGz3D-nfTd25-6syxwQ-8zLvWC-4y5R9z-8gXBot-aATCWo-NvqGx-67vcv1-nxc6qH-bKhCEr-8w9uH9-65wnjj-5UX21y-3eov4o-BBsrb-668yVg-5W63ti)
 
 
---
+-- cover
 
 ##Focus during development
 
@@ -87,7 +105,7 @@ A large, clear wall or whiteboard.
 
 --
 
-#You'll need
+#You'll need 
 
 - painter's tape
 - markers
@@ -95,7 +113,13 @@ A large, clear wall or whiteboard.
 
 --
 
-#Thorough Discovery Up Front
+--
+
+#What you get from this
+
+--
+
+#Thorough Discovery
 
 - Understand the full process
   - Understand "why" steps are needed in the process
@@ -103,36 +127,39 @@ A large, clear wall or whiteboard.
 - Simplify and lower risk at implementation
   - Lowers the questions at the phase of implementation
   - Limits Feature Creep (beginning implementation w/o understanding, new features come in)
-- Better estimates
+- Better estimates 
 
 Discovery is cheaper at the beginning of a project, than during implementation
 
 --
 
-#Focus on Goals and Outcomes
+#Focus on Outcomes
 
-- Prioritize features based on the problem they solve
+- Prioritize features based on the problem they solve 
 - Implement only what solves the problem or meets the objective
-
+ 
 (instead of perceived importance)
 
 --
 
 
 
---
-
+-- cover
+              
 ![3](img/3.jpg)
---
 
+-- cover
+            
 ![4](img/4.jpg)
---
+
+-- cover
 
 ![5](img/5.jpg)
---
+
+-- cover
 
 ![6](img/6.jpg)
-
+                            
 --
 
 ### A textual example
