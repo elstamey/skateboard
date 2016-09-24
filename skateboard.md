@@ -112,6 +112,59 @@ A large, clear wall or whiteboard.
 - post-its (many colors)
 
 --
+#User Story
+
+"A user story is a tool used in Agile software development to capture a
+description of a software feature from an end-user perspective. The user
+story describes the type of user, what they want and why. A user story
+helps to create a simplified description of a requirement."
+
+~Wikipedia
+
+--
+
+#User Story Structure
+
+As a {role}, I want {feature} so that {reason}.
+
+--
+
+#The Story Map
+
+Composed of many user stories.
+
+Tells the story of your application.
+
+It can include parts of the story that happen outside of the application.
+
+--
+
+#Anatomy of a Story Map
+
+- Users => actors in the story
+
+- Backbone => overview of the project; built from user stories; the frame;
+
+- User Tasks => add detail to the story
+
+- Objectives => organize and prioritize stories
+
+
+
+-- cover
+
+![Anatomy of a User Story Map](img/user-story-mapping-6-638.jpg)
+--
+
+#Building the map
+
+Begin with user stories and work toward a narrative flow
+
+Later, distill the story to build your backbone
+
+-- cover
+
+![3](img/3.jpg)
 
 --
 
@@ -144,9 +197,6 @@ Discovery is cheaper at the beginning of a project, than during implementation
 
 
 
--- cover
-              
-![3](img/3.jpg)
 
 -- cover
             
