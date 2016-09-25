@@ -246,12 +246,22 @@ Discovery is cheaper at the beginning of a project, than during implementation
 
 --
 
+##Prioritization Tools
+
+* Who will use this product?
+* What steps must they accomplish for success?
+* Remove/postpone the rest
+
+--
+##Prioritizing Features & Outcomes
+
+* Differentiator - feature sets you apart from competition
+* Spoiler - moves in on someone else’s differentiator
+* Cost reducer - reduces organizational costs
+* Table stakes - feature necessary to compete
 
 
 
--- cover
-            
-![4](img/4.jpg)
 
 -- cover
 
