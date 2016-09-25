@@ -1968,122 +1968,122 @@ body {
  *********************************************/
 
  .reveal .preview-link-overlay {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: 1000;
-	background: rgba( 0, 0, 0, 0.9 );
-	opacity: 0;
-	visibility: hidden;
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	width: 100%;
+ 	height: 100%;
+ 	z-index: 1000;
+ 	background: rgba( 0, 0, 0, 0.9 );
+ 	opacity: 0;
+ 	visibility: hidden;
 
-	-webkit-transition: all 0.3s ease;
-	   -moz-transition: all 0.3s ease;
-	    -ms-transition: all 0.3s ease;
-	        transition: all 0.3s ease;
+ 	-webkit-transition: all 0.3s ease;
+ 	   -moz-transition: all 0.3s ease;
+ 	    -ms-transition: all 0.3s ease;
+ 	        transition: all 0.3s ease;
  }
-	.reveal .preview-link-overlay.visible {
-		opacity: 1;
-		visibility: visible;
-	}
+ 	.reveal .preview-link-overlay.visible {
+ 		opacity: 1;
+ 		visibility: visible;
+ 	}
 
-	.reveal .preview-link-overlay .spinner {
-		position: absolute;
-		display: block;
-		top: 50%;
-		left: 50%;
-		width: 32px;
-		height: 32px;
-		margin: -16px 0 0 -16px;
-		z-index: 10;
-		background-image: url(data:image/gif;base64,R0lGODlhIAAgAPMAAJmZmf%2F%2F%2F6%2Bvr8nJybW1tcDAwOjo6Nvb26ioqKOjo7Ozs%2FLy8vz8%2FAAAAAAAAAAAACH%2FC05FVFNDQVBFMi4wAwEAAAAh%2FhpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh%2BQQJCgAAACwAAAAAIAAgAAAE5xDISWlhperN52JLhSSdRgwVo1ICQZRUsiwHpTJT4iowNS8vyW2icCF6k8HMMBkCEDskxTBDAZwuAkkqIfxIQyhBQBFvAQSDITM5VDW6XNE4KagNh6Bgwe60smQUB3d4Rz1ZBApnFASDd0hihh12BkE9kjAJVlycXIg7CQIFA6SlnJ87paqbSKiKoqusnbMdmDC2tXQlkUhziYtyWTxIfy6BE8WJt5YJvpJivxNaGmLHT0VnOgSYf0dZXS7APdpB309RnHOG5gDqXGLDaC457D1zZ%2FV%2FnmOM82XiHRLYKhKP1oZmADdEAAAh%2BQQJCgAAACwAAAAAIAAgAAAE6hDISWlZpOrNp1lGNRSdRpDUolIGw5RUYhhHukqFu8DsrEyqnWThGvAmhVlteBvojpTDDBUEIFwMFBRAmBkSgOrBFZogCASwBDEY%2FCZSg7GSE0gSCjQBMVG023xWBhklAnoEdhQEfyNqMIcKjhRsjEdnezB%2BA4k8gTwJhFuiW4dokXiloUepBAp5qaKpp6%2BHo7aWW54wl7obvEe0kRuoplCGepwSx2jJvqHEmGt6whJpGpfJCHmOoNHKaHx61WiSR92E4lbFoq%2BB6QDtuetcaBPnW6%2BO7wDHpIiK9SaVK5GgV543tzjgGcghAgAh%2BQQJCgAAACwAAAAAIAAgAAAE7hDISSkxpOrN5zFHNWRdhSiVoVLHspRUMoyUakyEe8PTPCATW9A14E0UvuAKMNAZKYUZCiBMuBakSQKG8G2FzUWox2AUtAQFcBKlVQoLgQReZhQlCIJesQXI5B0CBnUMOxMCenoCfTCEWBsJColTMANldx15BGs8B5wlCZ9Po6OJkwmRpnqkqnuSrayqfKmqpLajoiW5HJq7FL1Gr2mMMcKUMIiJgIemy7xZtJsTmsM4xHiKv5KMCXqfyUCJEonXPN2rAOIAmsfB3uPoAK%2B%2BG%2Bw48edZPK%2BM6hLJpQg484enXIdQFSS1u6UhksENEQAAIfkECQoAAAAsAAAAACAAIAAABOcQyEmpGKLqzWcZRVUQnZYg1aBSh2GUVEIQ2aQOE%2BG%2BcD4ntpWkZQj1JIiZIogDFFyHI0UxQwFugMSOFIPJftfVAEoZLBbcLEFhlQiqGp1Vd140AUklUN3eCA51C1EWMzMCezCBBmkxVIVHBWd3HHl9JQOIJSdSnJ0TDKChCwUJjoWMPaGqDKannasMo6WnM562R5YluZRwur0wpgqZE7NKUm%2BFNRPIhjBJxKZteWuIBMN4zRMIVIhffcgojwCF117i4nlLnY5ztRLsnOk%2BaV%2BoJY7V7m76PdkS4trKcdg0Zc0tTcKkRAAAIfkECQoAAAAsAAAAACAAIAAABO4QyEkpKqjqzScpRaVkXZWQEximw1BSCUEIlDohrft6cpKCk5xid5MNJTaAIkekKGQkWyKHkvhKsR7ARmitkAYDYRIbUQRQjWBwJRzChi9CRlBcY1UN4g0%2FVNB0AlcvcAYHRyZPdEQFYV8ccwR5HWxEJ02YmRMLnJ1xCYp0Y5idpQuhopmmC2KgojKasUQDk5BNAwwMOh2RtRq5uQuPZKGIJQIGwAwGf6I0JXMpC8C7kXWDBINFMxS4DKMAWVWAGYsAdNqW5uaRxkSKJOZKaU3tPOBZ4DuK2LATgJhkPJMgTwKCdFjyPHEnKxFCDhEAACH5BAkKAAAALAAAAAAgACAAAATzEMhJaVKp6s2nIkolIJ2WkBShpkVRWqqQrhLSEu9MZJKK9y1ZrqYK9WiClmvoUaF8gIQSNeF1Er4MNFn4SRSDARWroAIETg1iVwuHjYB1kYc1mwruwXKC9gmsJXliGxc%2BXiUCby9ydh1sOSdMkpMTBpaXBzsfhoc5l58Gm5yToAaZhaOUqjkDgCWNHAULCwOLaTmzswadEqggQwgHuQsHIoZCHQMMQgQGubVEcxOPFAcMDAYUA85eWARmfSRQCdcMe0zeP1AAygwLlJtPNAAL19DARdPzBOWSm1brJBi45soRAWQAAkrQIykShQ9wVhHCwCQCACH5BAkKAAAALAAAAAAgACAAAATrEMhJaVKp6s2nIkqFZF2VIBWhUsJaTokqUCoBq%2BE71SRQeyqUToLA7VxF0JDyIQh%2FMVVPMt1ECZlfcjZJ9mIKoaTl1MRIl5o4CUKXOwmyrCInCKqcWtvadL2SYhyASyNDJ0uIiRMDjI0Fd30%2FiI2UA5GSS5UDj2l6NoqgOgN4gksEBgYFf0FDqKgHnyZ9OX8HrgYHdHpcHQULXAS2qKpENRg7eAMLC7kTBaixUYFkKAzWAAnLC7FLVxLWDBLKCwaKTULgEwbLA4hJtOkSBNqITT3xEgfLpBtzE%2FjiuL04RGEBgwWhShRgQExHBAAh%2BQQJCgAAACwAAAAAIAAgAAAE7xDISWlSqerNpyJKhWRdlSAVoVLCWk6JKlAqAavhO9UkUHsqlE6CwO1cRdCQ8iEIfzFVTzLdRAmZX3I2SfZiCqGk5dTESJeaOAlClzsJsqwiJwiqnFrb2nS9kmIcgEsjQydLiIlHehhpejaIjzh9eomSjZR%2BipslWIRLAgMDOR2DOqKogTB9pCUJBagDBXR6XB0EBkIIsaRsGGMMAxoDBgYHTKJiUYEGDAzHC9EACcUGkIgFzgwZ0QsSBcXHiQvOwgDdEwfFs0sDzt4S6BK4xYjkDOzn0unFeBzOBijIm1Dgmg5YFQwsCMjp1oJ8LyIAACH5BAkKAAAALAAAAAAgACAAAATwEMhJaVKp6s2nIkqFZF2VIBWhUsJaTokqUCoBq%2BE71SRQeyqUToLA7VxF0JDyIQh%2FMVVPMt1ECZlfcjZJ9mIKoaTl1MRIl5o4CUKXOwmyrCInCKqcWtvadL2SYhyASyNDJ0uIiUd6GGl6NoiPOH16iZKNlH6KmyWFOggHhEEvAwwMA0N9GBsEC6amhnVcEwavDAazGwIDaH1ipaYLBUTCGgQDA8NdHz0FpqgTBwsLqAbWAAnIA4FWKdMLGdYGEgraigbT0OITBcg5QwPT4xLrROZL6AuQAPUS7bxLpoWidY0JtxLHKhwwMJBTHgPKdEQAACH5BAkKAAAALAAAAAAgACAAAATrEMhJaVKp6s2nIkqFZF2VIBWhUsJaTokqUCoBq%2BE71SRQeyqUToLA7VxF0JDyIQh%2FMVVPMt1ECZlfcjZJ9mIKoaTl1MRIl5o4CUKXOwmyrCInCKqcWtvadL2SYhyASyNDJ0uIiUd6GAULDJCRiXo1CpGXDJOUjY%2BYip9DhToJA4RBLwMLCwVDfRgbBAaqqoZ1XBMHswsHtxtFaH1iqaoGNgAIxRpbFAgfPQSqpbgGBqUD1wBXeCYp1AYZ19JJOYgH1KwA4UBvQwXUBxPqVD9L3sbp2BNk2xvvFPJd%2BMFCN6HAAIKgNggY0KtEBAAh%2BQQJCgAAACwAAAAAIAAgAAAE6BDISWlSqerNpyJKhWRdlSAVoVLCWk6JKlAqAavhO9UkUHsqlE6CwO1cRdCQ8iEIfzFVTzLdRAmZX3I2SfYIDMaAFdTESJeaEDAIMxYFqrOUaNW4E4ObYcCXaiBVEgULe0NJaxxtYksjh2NLkZISgDgJhHthkpU4mW6blRiYmZOlh4JWkDqILwUGBnE6TYEbCgevr0N1gH4At7gHiRpFaLNrrq8HNgAJA70AWxQIH1%2BvsYMDAzZQPC9VCNkDWUhGkuE5PxJNwiUK4UfLzOlD4WvzAHaoG9nxPi5d%2BjYUqfAhhykOFwJWiAAAIfkECQoAAAAsAAAAACAAIAAABPAQyElpUqnqzaciSoVkXVUMFaFSwlpOCcMYlErAavhOMnNLNo8KsZsMZItJEIDIFSkLGQoQTNhIsFehRww2CQLKF0tYGKYSg%2BygsZIuNqJksKgbfgIGepNo2cIUB3V1B3IvNiBYNQaDSTtfhhx0CwVPI0UJe0%2Bbm4g5VgcGoqOcnjmjqDSdnhgEoamcsZuXO1aWQy8KAwOAuTYYGwi7w5h%2BKr0SJ8MFihpNbx%2B4Erq7BYBuzsdiH1jCAzoSfl0rVirNbRXlBBlLX%2BBP0XJLAPGzTkAuAOqb0WT5AH7OcdCm5B8TgRwSRKIHQtaLCwg1RAAAOwAAAAAAAAAAAA%3D%3D);
+ 	.reveal .preview-link-overlay .spinner {
+ 		position: absolute;
+ 		display: block;
+ 		top: 50%;
+ 		left: 50%;
+ 		width: 32px;
+ 		height: 32px;
+ 		margin: -16px 0 0 -16px;
+ 		z-index: 10;
+ 		background-image: url(data:image/gif;base64,R0lGODlhIAAgAPMAAJmZmf%2F%2F%2F6%2Bvr8nJybW1tcDAwOjo6Nvb26ioqKOjo7Ozs%2FLy8vz8%2FAAAAAAAAAAAACH%2FC05FVFNDQVBFMi4wAwEAAAAh%2FhpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh%2BQQJCgAAACwAAAAAIAAgAAAE5xDISWlhperN52JLhSSdRgwVo1ICQZRUsiwHpTJT4iowNS8vyW2icCF6k8HMMBkCEDskxTBDAZwuAkkqIfxIQyhBQBFvAQSDITM5VDW6XNE4KagNh6Bgwe60smQUB3d4Rz1ZBApnFASDd0hihh12BkE9kjAJVlycXIg7CQIFA6SlnJ87paqbSKiKoqusnbMdmDC2tXQlkUhziYtyWTxIfy6BE8WJt5YJvpJivxNaGmLHT0VnOgSYf0dZXS7APdpB309RnHOG5gDqXGLDaC457D1zZ%2FV%2FnmOM82XiHRLYKhKP1oZmADdEAAAh%2BQQJCgAAACwAAAAAIAAgAAAE6hDISWlZpOrNp1lGNRSdRpDUolIGw5RUYhhHukqFu8DsrEyqnWThGvAmhVlteBvojpTDDBUEIFwMFBRAmBkSgOrBFZogCASwBDEY%2FCZSg7GSE0gSCjQBMVG023xWBhklAnoEdhQEfyNqMIcKjhRsjEdnezB%2BA4k8gTwJhFuiW4dokXiloUepBAp5qaKpp6%2BHo7aWW54wl7obvEe0kRuoplCGepwSx2jJvqHEmGt6whJpGpfJCHmOoNHKaHx61WiSR92E4lbFoq%2BB6QDtuetcaBPnW6%2BO7wDHpIiK9SaVK5GgV543tzjgGcghAgAh%2BQQJCgAAACwAAAAAIAAgAAAE7hDISSkxpOrN5zFHNWRdhSiVoVLHspRUMoyUakyEe8PTPCATW9A14E0UvuAKMNAZKYUZCiBMuBakSQKG8G2FzUWox2AUtAQFcBKlVQoLgQReZhQlCIJesQXI5B0CBnUMOxMCenoCfTCEWBsJColTMANldx15BGs8B5wlCZ9Po6OJkwmRpnqkqnuSrayqfKmqpLajoiW5HJq7FL1Gr2mMMcKUMIiJgIemy7xZtJsTmsM4xHiKv5KMCXqfyUCJEonXPN2rAOIAmsfB3uPoAK%2B%2BG%2Bw48edZPK%2BM6hLJpQg484enXIdQFSS1u6UhksENEQAAIfkECQoAAAAsAAAAACAAIAAABOcQyEmpGKLqzWcZRVUQnZYg1aBSh2GUVEIQ2aQOE%2BG%2BcD4ntpWkZQj1JIiZIogDFFyHI0UxQwFugMSOFIPJftfVAEoZLBbcLEFhlQiqGp1Vd140AUklUN3eCA51C1EWMzMCezCBBmkxVIVHBWd3HHl9JQOIJSdSnJ0TDKChCwUJjoWMPaGqDKannasMo6WnM562R5YluZRwur0wpgqZE7NKUm%2BFNRPIhjBJxKZteWuIBMN4zRMIVIhffcgojwCF117i4nlLnY5ztRLsnOk%2BaV%2BoJY7V7m76PdkS4trKcdg0Zc0tTcKkRAAAIfkECQoAAAAsAAAAACAAIAAABO4QyEkpKqjqzScpRaVkXZWQEximw1BSCUEIlDohrft6cpKCk5xid5MNJTaAIkekKGQkWyKHkvhKsR7ARmitkAYDYRIbUQRQjWBwJRzChi9CRlBcY1UN4g0%2FVNB0AlcvcAYHRyZPdEQFYV8ccwR5HWxEJ02YmRMLnJ1xCYp0Y5idpQuhopmmC2KgojKasUQDk5BNAwwMOh2RtRq5uQuPZKGIJQIGwAwGf6I0JXMpC8C7kXWDBINFMxS4DKMAWVWAGYsAdNqW5uaRxkSKJOZKaU3tPOBZ4DuK2LATgJhkPJMgTwKCdFjyPHEnKxFCDhEAACH5BAkKAAAALAAAAAAgACAAAATzEMhJaVKp6s2nIkolIJ2WkBShpkVRWqqQrhLSEu9MZJKK9y1ZrqYK9WiClmvoUaF8gIQSNeF1Er4MNFn4SRSDARWroAIETg1iVwuHjYB1kYc1mwruwXKC9gmsJXliGxc%2BXiUCby9ydh1sOSdMkpMTBpaXBzsfhoc5l58Gm5yToAaZhaOUqjkDgCWNHAULCwOLaTmzswadEqggQwgHuQsHIoZCHQMMQgQGubVEcxOPFAcMDAYUA85eWARmfSRQCdcMe0zeP1AAygwLlJtPNAAL19DARdPzBOWSm1brJBi45soRAWQAAkrQIykShQ9wVhHCwCQCACH5BAkKAAAALAAAAAAgACAAAATrEMhJaVKp6s2nIkqFZF2VIBWhUsJaTokqUCoBq%2BE71SRQeyqUToLA7VxF0JDyIQh%2FMVVPMt1ECZlfcjZJ9mIKoaTl1MRIl5o4CUKXOwmyrCInCKqcWtvadL2SYhyASyNDJ0uIiRMDjI0Fd30%2FiI2UA5GSS5UDj2l6NoqgOgN4gksEBgYFf0FDqKgHnyZ9OX8HrgYHdHpcHQULXAS2qKpENRg7eAMLC7kTBaixUYFkKAzWAAnLC7FLVxLWDBLKCwaKTULgEwbLA4hJtOkSBNqITT3xEgfLpBtzE%2FjiuL04RGEBgwWhShRgQExHBAAh%2BQQJCgAAACwAAAAAIAAgAAAE7xDISWlSqerNpyJKhWRdlSAVoVLCWk6JKlAqAavhO9UkUHsqlE6CwO1cRdCQ8iEIfzFVTzLdRAmZX3I2SfZiCqGk5dTESJeaOAlClzsJsqwiJwiqnFrb2nS9kmIcgEsjQydLiIlHehhpejaIjzh9eomSjZR%2BipslWIRLAgMDOR2DOqKogTB9pCUJBagDBXR6XB0EBkIIsaRsGGMMAxoDBgYHTKJiUYEGDAzHC9EACcUGkIgFzgwZ0QsSBcXHiQvOwgDdEwfFs0sDzt4S6BK4xYjkDOzn0unFeBzOBijIm1Dgmg5YFQwsCMjp1oJ8LyIAACH5BAkKAAAALAAAAAAgACAAAATwEMhJaVKp6s2nIkqFZF2VIBWhUsJaTokqUCoBq%2BE71SRQeyqUToLA7VxF0JDyIQh%2FMVVPMt1ECZlfcjZJ9mIKoaTl1MRIl5o4CUKXOwmyrCInCKqcWtvadL2SYhyASyNDJ0uIiUd6GGl6NoiPOH16iZKNlH6KmyWFOggHhEEvAwwMA0N9GBsEC6amhnVcEwavDAazGwIDaH1ipaYLBUTCGgQDA8NdHz0FpqgTBwsLqAbWAAnIA4FWKdMLGdYGEgraigbT0OITBcg5QwPT4xLrROZL6AuQAPUS7bxLpoWidY0JtxLHKhwwMJBTHgPKdEQAACH5BAkKAAAALAAAAAAgACAAAATrEMhJaVKp6s2nIkqFZF2VIBWhUsJaTokqUCoBq%2BE71SRQeyqUToLA7VxF0JDyIQh%2FMVVPMt1ECZlfcjZJ9mIKoaTl1MRIl5o4CUKXOwmyrCInCKqcWtvadL2SYhyASyNDJ0uIiUd6GAULDJCRiXo1CpGXDJOUjY%2BYip9DhToJA4RBLwMLCwVDfRgbBAaqqoZ1XBMHswsHtxtFaH1iqaoGNgAIxRpbFAgfPQSqpbgGBqUD1wBXeCYp1AYZ19JJOYgH1KwA4UBvQwXUBxPqVD9L3sbp2BNk2xvvFPJd%2BMFCN6HAAIKgNggY0KtEBAAh%2BQQJCgAAACwAAAAAIAAgAAAE6BDISWlSqerNpyJKhWRdlSAVoVLCWk6JKlAqAavhO9UkUHsqlE6CwO1cRdCQ8iEIfzFVTzLdRAmZX3I2SfYIDMaAFdTESJeaEDAIMxYFqrOUaNW4E4ObYcCXaiBVEgULe0NJaxxtYksjh2NLkZISgDgJhHthkpU4mW6blRiYmZOlh4JWkDqILwUGBnE6TYEbCgevr0N1gH4At7gHiRpFaLNrrq8HNgAJA70AWxQIH1%2BvsYMDAzZQPC9VCNkDWUhGkuE5PxJNwiUK4UfLzOlD4WvzAHaoG9nxPi5d%2BjYUqfAhhykOFwJWiAAAIfkECQoAAAAsAAAAACAAIAAABPAQyElpUqnqzaciSoVkXVUMFaFSwlpOCcMYlErAavhOMnNLNo8KsZsMZItJEIDIFSkLGQoQTNhIsFehRww2CQLKF0tYGKYSg%2BygsZIuNqJksKgbfgIGepNo2cIUB3V1B3IvNiBYNQaDSTtfhhx0CwVPI0UJe0%2Bbm4g5VgcGoqOcnjmjqDSdnhgEoamcsZuXO1aWQy8KAwOAuTYYGwi7w5h%2BKr0SJ8MFihpNbx%2B4Erq7BYBuzsdiH1jCAzoSfl0rVirNbRXlBBlLX%2BBP0XJLAPGzTkAuAOqb0WT5AH7OcdCm5B8TgRwSRKIHQtaLCwg1RAAAOwAAAAAAAAAAAA%3D%3D);
 
-		visibility: visible;
-		opacity: 0.6;
+ 		visibility: visible;
+ 		opacity: 0.6;
 
-		-webkit-transition: all 0.3s ease;
-		   -moz-transition: all 0.3s ease;
-		    -ms-transition: all 0.3s ease;
-		        transition: all 0.3s ease;
-	}
+ 		-webkit-transition: all 0.3s ease;
+ 		   -moz-transition: all 0.3s ease;
+ 		    -ms-transition: all 0.3s ease;
+ 		        transition: all 0.3s ease;
+ 	}
 
-	.reveal .preview-link-overlay header {
-		position: absolute;
-		left: 0;
-		top: 0;
-		width: 100%;
-		height: 40px;
-		z-index: 2;
-		border-bottom: 1px solid #222;
-	}
-		.reveal .preview-link-overlay header a {
-			display: inline-block;
-			width: 40px;
-			height: 40px;
-			padding: 0 10px;
-			float: right;
-			opacity: 0.6;
+ 	.reveal .preview-link-overlay header {
+ 		position: absolute;
+ 		left: 0;
+ 		top: 0;
+ 		width: 100%;
+ 		height: 40px;
+ 		z-index: 2;
+ 		border-bottom: 1px solid #222;
+ 	}
+ 		.reveal .preview-link-overlay header a {
+ 			display: inline-block;
+ 			width: 40px;
+ 			height: 40px;
+ 			padding: 0 10px;
+ 			float: right;
+ 			opacity: 0.6;
 
-			box-sizing: border-box;
-		}
-			.reveal .preview-link-overlay header a:hover {
-				opacity: 1;
-			}
-			.reveal .preview-link-overlay header a .icon {
-				display: inline-block;
-				width: 20px;
-				height: 20px;
+ 			box-sizing: border-box;
+ 		}
+ 			.reveal .preview-link-overlay header a:hover {
+ 				opacity: 1;
+ 			}
+ 			.reveal .preview-link-overlay header a .icon {
+ 				display: inline-block;
+ 				width: 20px;
+ 				height: 20px;
 
-				background-position: 50% 50%;
-				background-size: 100%;
-				background-repeat: no-repeat;
-			}
-			.reveal .preview-link-overlay header a.close .icon {
-				background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABkklEQVRYR8WX4VHDMAxG6wnoJrABZQPYBCaBTWAD2g1gE5gg6OOsXuxIlr40d81dfrSJ9V4c2VLK7spHuTJ/5wpM07QXuXc5X0opX2tEJcadjHuV80li/FgxTIEK/5QBCICBD6xEhSMGHgQPgBgLiYVAB1dpSqKDawxTohFw4JSEA3clzgIBPCURwE2JucBR7rhPJJv5OpJwDX+SfDjgx1wACQeJG1aChP9K/IMmdZ8DtESV1WyP3Bt4MwM6sj4NMxMYiqUWHQu4KYA/SYkIjOsm3BXYWMKFDwU2khjCQ4ELJUJ4SmClRArOCmSXGuKma0fYD5CbzHxFpCSGAhfAVSSUGDUk2BWZaff2g6GE15BsBQ9nwmpIGDiyHQddwNTMKkbZaf9fajXQca1EX44puJZUsnY0ObGmITE3GVLCbEhQUjGVt146j6oasWN+49Vph2w1pZ5EansNZqKBm1txbU57iRRcZ86RWMDdWtBJUHBHwoQPi1GV+JCbntmvok7iTX4/Up9mgyTc/FJYDTcndgH/AA5A/CHsyEkVAAAAAElFTkSuQmCC);
-			}
-			.reveal .preview-link-overlay header a.external .icon {
-				background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAcElEQVRYR+2WSQoAIQwEzf8f7XiOMkUQxUPlGkM3hVmiQfQR9GYnH1SsAQlI4DiBqkCMoNb9y2e90IAEJPAcgdznU9+engMaeJ7Azh5Y1U67gAho4DqBqmB1buAf0MB1AlVBek83ZPkmJMGc1wAR+AAqod/B97TRpQAAAABJRU5ErkJggg==);
-			}
+ 				background-position: 50% 50%;
+ 				background-size: 100%;
+ 				background-repeat: no-repeat;
+ 			}
+ 			.reveal .preview-link-overlay header a.close .icon {
+ 				background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABkklEQVRYR8WX4VHDMAxG6wnoJrABZQPYBCaBTWAD2g1gE5gg6OOsXuxIlr40d81dfrSJ9V4c2VLK7spHuTJ/5wpM07QXuXc5X0opX2tEJcadjHuV80li/FgxTIEK/5QBCICBD6xEhSMGHgQPgBgLiYVAB1dpSqKDawxTohFw4JSEA3clzgIBPCURwE2JucBR7rhPJJv5OpJwDX+SfDjgx1wACQeJG1aChP9K/IMmdZ8DtESV1WyP3Bt4MwM6sj4NMxMYiqUWHQu4KYA/SYkIjOsm3BXYWMKFDwU2khjCQ4ELJUJ4SmClRArOCmSXGuKma0fYD5CbzHxFpCSGAhfAVSSUGDUk2BWZaff2g6GE15BsBQ9nwmpIGDiyHQddwNTMKkbZaf9fajXQca1EX44puJZUsnY0ObGmITE3GVLCbEhQUjGVt146j6oasWN+49Vph2w1pZ5EansNZqKBm1txbU57iRRcZ86RWMDdWtBJUHBHwoQPi1GV+JCbntmvok7iTX4/Up9mgyTc/FJYDTcndgH/AA5A/CHsyEkVAAAAAElFTkSuQmCC);
+ 			}
+ 			.reveal .preview-link-overlay header a.external .icon {
+ 				background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAcElEQVRYR+2WSQoAIQwEzf8f7XiOMkUQxUPlGkM3hVmiQfQR9GYnH1SsAQlI4DiBqkCMoNb9y2e90IAEJPAcgdznU9+engMaeJ7Azh5Y1U67gAho4DqBqmB1buAf0MB1AlVBek83ZPkmJMGc1wAR+AAqod/B97TRpQAAAABJRU5ErkJggg==);
+ 			}
 
-	.reveal .preview-link-overlay .viewport {
-		position: absolute;
-		top: 40px;
-		right: 0;
-		bottom: 0;
-		left: 0;
-	}
+ 	.reveal .preview-link-overlay .viewport {
+ 		position: absolute;
+ 		top: 40px;
+ 		right: 0;
+ 		bottom: 0;
+ 		left: 0;
+ 	}
 
-	.reveal .preview-link-overlay .viewport iframe {
-		width: 100%;
-		height: 100%;
-		max-width: 100%;
-		max-height: 100%;
-		border: 0;
+ 	.reveal .preview-link-overlay .viewport iframe {
+ 		width: 100%;
+ 		height: 100%;
+ 		max-width: 100%;
+ 		max-height: 100%;
+ 		border: 0;
 
-		opacity: 0;
-		visibility: hidden;
+ 		opacity: 0;
+ 		visibility: hidden;
 
-		-webkit-transition: all 0.3s ease;
-		   -moz-transition: all 0.3s ease;
-		    -ms-transition: all 0.3s ease;
-		        transition: all 0.3s ease;
-	}
+ 		-webkit-transition: all 0.3s ease;
+ 		   -moz-transition: all 0.3s ease;
+ 		    -ms-transition: all 0.3s ease;
+ 		        transition: all 0.3s ease;
+ 	}
 
-	.reveal .preview-link-overlay.loaded .viewport iframe {
-		opacity: 1;
-		visibility: visible;
-	}
+ 	.reveal .preview-link-overlay.loaded .viewport iframe {
+ 		opacity: 1;
+ 		visibility: visible;
+ 	}
 
-	.reveal .preview-link-overlay.loaded .spinner {
-		opacity: 0;
-		visibility: hidden;
+ 	.reveal .preview-link-overlay.loaded .spinner {
+ 		opacity: 0;
+ 		visibility: hidden;
 
-		-webkit-transform: scale(0.2);
-		   -moz-transform: scale(0.2);
-		    -ms-transform: scale(0.2);
-		        transform: scale(0.2);
-	}
+ 		-webkit-transform: scale(0.2);
+ 		   -moz-transform: scale(0.2);
+ 		    -ms-transform: scale(0.2);
+ 		        transform: scale(0.2);
+ 	}
 
 
 
@@ -2400,7 +2400,7 @@ body {
     width: 100%;
     bottom: 3px;
     left: 0;
-    z-index: 10;
+    z-index: 10; 
     font-size: 35%;
     text-align:right;
     background-image: url(../images/pink-logo.png);
@@ -2543,78 +2543,88 @@ mark {
 
   </section>
   <section>
-
-  </section>
-  <section>
-
-  </section>
-  <section>
-    <h2 id="ripped-from-the-pages-of-not-really-">Ripped from the pages of (not really)</h2>
+    <h4 id="ripped-from-the-pages-of-not-really-">Ripped from the pages of (not really)</h4>
 <p><img src="img/book.jpg" alt="User Story Mapping by Jeff Patton"></p>
 
   </section>
   <section>
-    <h1 id="learning-objectives">Learning Objectives</h1>
+    
+  </section>
+  <section>
+    <h3 id="a-typical-mvp-strategy">A Typical MVP Strategy</h3>
+<ul>
+<li>Build a prototype</li>
+<li>Break the prototype into components or parts </li>
+<li>Develop over several months</li>
+<li>At each release, deliver something unusable/incomplete</li>
+<li>Finally learn if the big guess of the prototype was correct</li>
+<li>Changes are much more costly, so most are left alone</li>
+</ul>
+
+  </section>
+  <section>
+    <h3 id="learning-objectives">Learning Objectives</h3>
 <ol>
 <li>How to story map</li>
-<li>Sketch a small map</li>
+<li>Sketch a narrative flow</li>
+<li>Goal-based prioritization</li>
 <li>Critique the Scholarships story map</li>
 </ol>
 
   </section>
   <section>
-    <h1 id="who-should-story-map-">Who should Story Map?</h1>
-<p>Everyone who knows the process ... Not Just Developers</p>
-
-  </section>
-  <section>
-    <h1 id="what-is-a-story-map-">What is a Story Map?</h1>
-<p>A diagram of a project that identifies the stories of the people and systems involved in a process.</p>
+    <h3 id="what-is-a-story-map-">What is a Story Map?</h3>
+<p>A diagram of a project that tells the story of the people and systems 
+involved in a process.</p>
 <p>Detail is added as we learn more about the project</p>
-<p>The project can be an existing application or a new application.</p>
+<p>The map can be built for an existing application or a new application.</p>
 
   </section>
   <section>
-    <h1 id="why-story-map-">Why Story Map?</h1>
-<ul>
-<li>Build shared understanding</li>
-<li>Encourage discovery before implementation</li>
-<li>Include all stakeholders in the discussion</li>
-<li>Organize work to be done</li>
-</ul>
+    <p><img src="img/user_story_map.png" alt="Anatomy of a User Story Map"></p>
 
   </section>
   <section>
-    <h1 id="the-big-picture">The big picture</h1>
+    <h3 id="who-should-story-map-">Who should Story Map?</h3>
+<p>Anyone who knows the process ... Not Just Developers</p>
+<p>At least one knowledgeable person from each group of stakeholders</p>
+
+  </section>
+  <section>
+    <h3 id="when-to-story-map-">When to Story Map?</h3>
+<p>*When you have questions about an application or process</p>
+<p>*When you begin new work</p>
+<p>*Preferably before you being development</p>
+
+  </section>
+  <section>
+    <h3 id="why-story-map-">Why Story Map?</h3>
+<p><em>Build shared understanding
+</em>Encourage full discovery before prototyping
+*Prioritize work to be done as a group</p>
+<p><strong>*Lowers problems with estimates and feature creep</strong></p>
+
+  </section>
+  <section>
+    <h3 id="the-big-picture">The big picture</h3>
 <p><img src="img/panorama.jpg" alt="Panorama of mountains, a town, and fields far into the distance"></p>
 <p>Photo by <a href="https://www.flickr.com/photos/75487768@N04/8852553227/in/photolist-h8HTU3-JSeov4-h8HPQd-h8HWim-e5dUvX-5fR919-aB8Zp5-sbN2aF-n43Zp-nAUXRk-pw3kjL-qrSmhY-jSiBep-pYPm8B-eugDE4-4Tx3Rt-gUegPw-2Ri5uw-s8m2Qd-7j49P5-reXhVH-dCFW2M-eeoR86-8h1TkG-gsrTKm-4Nxays-dpe7UV-eDky7z-5j5d7W-oXXQy1-nY2L7h-mCqdmy-8RGz3D-nfTd25-6syxwQ-8zLvWC-4y5R9z-8gXBot-aATCWo-NvqGx-67vcv1-nxc6qH-bKhCEr-8w9uH9-65wnjj-5UX21y-3eov4o-BBsrb-668yVg-5W63ti">Barnyz</a></p>
 
   </section>
   <section>
-    <h2 id="focus-during-development">Focus during development</h2>
+    <h4 id="focus-during-development">Focus during development</h4>
 <p><img src="img/narrow_focus.jpg" alt="Focus"></p>
 <p><a href="https://www.flickr.com/photos/theilr/6991409092/in/photolist-bDNNm5-dei4BD-hPt5SL-rhRZNN-8a7A6N-c8F4a1-4hHTYQ-bULsP8-nFZm8R-npMA17-a7MRtV-aksL6R-ojpRNK-JtLhP-d1uCHu-6akRDL-nAPrzR-9LPpCP-dMHo1G-4Tb69M-3fK6eh-kEZkGe-5X9ePa-4UNFbB-TFs2-pg3VkM-qmgY5N-8BEgCx-dkYvQv-oVWE1S-dcfhQG-8Zre24-cNJ6sW-eksvWx-e2Woij-6ARqEj-7NcVUv-oiqrhR-9rfVkW-5W1swG-pzBSHK-EZB1y-6bays9-fyamKk-rhgNfR-bvcx6h-4Gaj4U-6vy3ei-kUcpkp-dCVdy">Photo by Theilr</a></p>
 
   </section>
   <section>
-    <h1 id="when-to-story-map-">When to Story Map?</h1>
-<ul>
-<li><p>When you have questions about an application or process</p>
-</li>
-<li><p>When you begin new work</p>
-</li>
-<li><p>Preferably before you being development</p>
-</li>
-</ul>
-
-  </section>
-  <section>
-    <h1 id="where-">Where?</h1>
+    <h3 id="where-">Where?</h3>
 <p>A large, clear wall or whiteboard.</p>
+<p>A place central to the team, at least in the beginning.</p>
 
   </section>
   <section>
-    <h1 id="you-ll-need">You&#39;ll need</h1>
+    <h3 id="you-ll-need">You&#39;ll need</h3>
 <ul>
 <li>painter&#39;s tape</li>
 <li>markers</li>
@@ -2623,49 +2633,54 @@ mark {
 
   </section>
   <section>
-    <h1 id="user-story">User Story</h1>
-<p>&quot;A user story is a tool used in Agile software development to capture a 
-description of a software feature from an end-user perspective. The user 
-story describes the type of user, what they want and why. A user story 
-helps to create a simplified description of a requirement.&quot;</p>
-<p>~Wikipedia</p>
-
-  </section>
-  <section>
-    <h1 id="user-story-structure">User Story Structure</h1>
-<p>As a {role}, I want {feature} so that {reason}.</p>
-
-  </section>
-  <section>
-    <h1 id="the-story-map">The Story Map</h1>
-<p>Composed of many user stories.</p>
-<p>Tells the story of your application.  </p>
-<p>It can include parts of the story that happen outside of the application.</p>
-
-  </section>
-  <section>
-    <h1 id="your-morning">Your Morning</h1>
+    <h3 id="your-morning">Your Morning</h3>
 <p>List the first five tasks or activities you did this morning after getting out of bed.</p>
+<p>Put each one on a post-it provided</p>
 
   </section>
   <section>
-    <h1 id="building-the-narrative">Building the narrative</h1>
-<p>Let&#39;s put them together to build a morning story!</p>
+    <h3 id="your-typical-morning">Your Typical Morning</h3>
+<p>Pick 3 things you normally do in the morning that you didn&#39;t do today</p>
+
+  </section>
+  <section>
+    <h3 id="users">Users</h3>
+<p>Who are the Actors/Users in your morning routine?</p>
+
+  </section>
+  <section>
+    <h3 id="build-activity-groups">Build Activity Groups</h3>
+<p>Sometimes several tasks can be grouped together.</p>
+
+  </section>
+  <section>
+    <h3 id="building-the-narrative">Building the narrative</h3>
+<p>Let&#39;s put them together to build a story of your morning!</p>
 <ul>
-<li>There are variations between people, days of week, local and out-of-towners</li>
+<li><p>There are variations between people, days of week, local and out-of-towners</p>
+</li>
+<li><p>If we were automating or tracking some of these morning tasks, we might identify activity groups and prioritize those groups for our application.</p>
+</li>
 </ul>
 
   </section>
   <section>
-    <h1 id="anatomy-of-a-story-map">Anatomy of a Story Map</h1>
+    
+  </section>
+  <section>
+    <h3 id="anatomy-of-a-story-map">Anatomy of a Story Map</h3>
 <ul>
 <li><p>Users =&gt; actors in the story</p>
 </li>
-<li><p>Backbone =&gt; overview of the project; built from user stories; the frame;</p>
+<li><p>Backbone =&gt; user activities</p>
 </li>
-<li><p>User Tasks =&gt; add detail to the story</p>
+<li><p>Walking Skeleton =&gt; major user tasks</p>
 </li>
-<li><p>Objectives =&gt; organize and prioritize stories</p>
+<li><p>User Stories =&gt; add detail to the story</p>
+</li>
+<li><p>Releases =&gt; organize and prioritize stories</p>
+</li>
+<li><p>Priorities =&gt; Lower Priority stories sink to the bottom</p>
 </li>
 </ul>
 
@@ -2675,9 +2690,19 @@ helps to create a simplified description of a requirement.&quot;</p>
 
   </section>
   <section>
-    <h1 id="building-the-map">Building the map</h1>
-<p>Begin with user stories and work toward a narrative flow</p>
-<p>Later, distill the story to build your backbone</p>
+    <h3 id="building-the-map">Building the map</h3>
+<ol>
+<li>Build and iterate on the full story</li>
+<li>Frame the structure by labeling the backbone activities and the walking skeleton</li>
+<li>Loosely prioritize stories based on everyone&#39;s needs; lower priorities sink</li>
+</ol>
+
+  </section>
+  <section>
+    
+  </section>
+  <section>
+    <p><img src="img/mvp.png" alt="Building a car in parts"></p>
 
   </section>
   <section>
@@ -2685,11 +2710,11 @@ helps to create a simplified description of a requirement.&quot;</p>
 
   </section>
   <section>
-    <h1 id="what-you-get-from-this">What you get from this</h1>
+    <h3 id="what-you-get-from-this">What you get from this</h3>
 
   </section>
   <section>
-    <h1 id="thorough-discovery">Thorough Discovery</h1>
+    <h3 id="thorough-discovery">Thorough Discovery</h3>
 <ul>
 <li>Understand the full process<ul>
 <li>Understand &quot;why&quot; steps are needed in the process</li>
@@ -2707,7 +2732,7 @@ helps to create a simplified description of a requirement.&quot;</p>
 
   </section>
   <section>
-    <h1 id="focus-on-outcomes">Focus on Outcomes</h1>
+    <h3 id="focus-on-outcomes">Focus on Outcomes</h3>
 <ul>
 <li>Prioritize features based on the problem they solve </li>
 <li>Implement only what solves the problem or meets the objective</li>
@@ -2716,7 +2741,7 @@ helps to create a simplified description of a requirement.&quot;</p>
 
   </section>
   <section>
-
+    
   </section>
   <section>
     <p><img src="img/4.jpg" alt="4"></p>
@@ -2731,19 +2756,24 @@ helps to create a simplified description of a requirement.&quot;</p>
 
   </section>
   <section>
-    <h3 id="a-textual-example">A textual example</h3>
-<p>Content can be written in <strong>Markdown!</strong> New lines no longer need two angle brackets.</p>
-<p>This will be in a separate paragraph</p>
+    <h3 id="user-story">User Story</h3>
+<p>&quot;A user story is a tool used in Agile software development to capture a 
+description of a software feature from an end-user perspective. The user 
+story describes the type of user, what they want and why. A user story 
+helps to create a simplified description of a requirement.&quot;</p>
+<p>~Wikipedia</p>
 
   </section>
   <section>
-    <h3 id="a-list-of-things">A list of things</h3>
-<ul>
-<li>Item 1</li>
-<li>Item B</li>
-<li>Item gamma</li>
-</ul>
-<p>No need for multiple templates!</p>
+    <h3 id="user-story-structure">User Story Structure</h3>
+<p>As a {role}, I want {feature} so that {reason}.</p>
+
+  </section>
+  <section>
+    <h3 id="the-story-map">The Story Map</h3>
+<p>Composed of many user stories.</p>
+<p>Tells the story of your application.  </p>
+<p>It can include parts of the story that happen outside of the application.</p>
 
   </section>
   <section>
