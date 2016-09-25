@@ -4,19 +4,20 @@ author:
   twitter: elstamey
   url: http://elstamey.com
 output: index.html
-theme: jdan/cleaver-retro
-style: my-style.css
+theme: elstamey/cleaver-reveal-theme
+style: my-style2.css
 controls: true
 progress: true
+transition: none
 
--- cover
+-- titleblock
 
 ## Whats Your Skateboard?
 ![Lego StarWars Figures riding a hoverboard, a skateboard, and a bicycle](img/cover_picture.jpg)
 
 photo by [Kenny Louie(https://www.flickr.com/photos/kwl/)
 
--- me
+-- slide-me
 
 #Emily Stamey
 Application Developer at NC State University
