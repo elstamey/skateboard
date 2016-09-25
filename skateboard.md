@@ -139,6 +139,20 @@ It can include parts of the story that happen outside of the application.
 
 --
 
+#Your Morning
+
+List the first five tasks or activities you did this morning after getting out of bed.
+
+--
+
+#Building the narrative
+
+Let's put them together to build a morning story!
+
+- There are variations between people, days of week, local and out-of-towners
+
+--
+
 #Anatomy of a Story Map
 
 - Users => actors in the story
