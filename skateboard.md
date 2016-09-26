@@ -299,6 +299,22 @@ A lot of times we look at the flow of the story and plan features in a chronolog
 ![Building a car in parts](img/mvp.png)
 
 --
+###Strategies
+
+* **opening game strategy** - when the number of features is too large, you can cut a slice across that gives you the minimum end-to-end  functionality;  
+It doesn’t solve all user’s stories, but it affects the largest number of stories.
+With this product, they can have test data, begin testing it for load, and see how it will work
+
+
+* **midgame strategy** - fill in and round out features; support optional steps; implement tough business rules; continue testing the product usability
+* **endgame** - refine: make it look more polished and efficient; it’s here that you’ll have feedback from users that can be applied.
+
+--
+###Strategies
+
+![Opening Mid and Eng-game Strategies stacked on top of each other](img/opening_mid_end_game.jpg)
+
+--
 ###Scholarships
 
 
