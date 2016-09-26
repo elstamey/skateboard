@@ -173,6 +173,20 @@ Let's put them together to build a story of your morning!
 
 
 --
+###Where to Learn More
+
+* Risk
+* Assumptions
+* Uncertainty
+
+If you cannot elaborate, mark it and revisit
+
+--
+###Clarifying Questions
+
+* What could we learn to replace **risk** information
+* Do you really know what has been mapped, or did you fill in with **assumptions**.
+* Are you sure about the story your are telling?  
 
 --
 
@@ -204,18 +218,6 @@ Let's put them together to build a story of your morning!
 
 
 
---
-
-
---
-
-![Building a car in parts](img/mvp.png)
-
-
-
--- cover
-              
-![3](img/3.jpg)
 
 --
 
@@ -253,26 +255,60 @@ Discovery is cheaper at the beginning of a project, than during implementation
 * Remove/postpone the rest
 
 --
-##Prioritizing Features & Outcomes
+##Prioritizing Features
 
-* Differentiator - feature sets you apart from competition
-* Spoiler - moves in on someone else’s differentiator
-* Cost reducer - reduces organizational costs
-* Table stakes - feature necessary to compete
-
-
-
-
--- cover
-
-![5](img/5.jpg)
-
--- cover
-
-![6](img/6.jpg)
-                            
+* **Differentiator** - feature sets you apart from competition
+* **Spoiler** - moves in on someone else’s differentiator
+* **Cost reducer** - reduces organizational costs
+* **Table stakes** - feature necessary to compete
 
 --
+###Prototyping
+
+* What is the smallest thing you could build to prove/disprove an assumption?
+* Sketch & prototype to test viability of the solution
+* Aim for less than minimum, get feedback, and iterate often
+* When you give prototype to **development partners** you can include metrics to see what they actually do
+                            
+--
+### MVP vs. Most Valuable Features
+
+Before we get too deep into the prototype, let's talk more about releasing valuable features every time.
+
+A lot of times we look at the flow of the story and plan features in a chronological order
+--
+--
+
+###When we build in parts
+
+![Building a car in parts](img/car_in_parts.jpg)
+
+--
+###When we build in parts
+
+![Painting in parts](img/painting_in_parts.jpg)
+
+--
+###Iterate on the design
+
+![Painting in layers as the image becomes cleared](img/iterative_mona_lisa.jpg)
+
+--
+###Most Valuable Features!!!
+
+![Building a car in parts](img/mvp.png)
+
+--
+###Scholarships
+
+
+
+--
+
+#maybe slides
+
+--
+
 ###User Story
 
 "A user story is a tool used in Agile software development to capture a 
