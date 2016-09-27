@@ -10,7 +10,7 @@ controls: true
 progress: true
 slideNumber: true
 
--- titleblock
+-- cover
 
 ## Whats Your Skateboard?
 ![Lego StarWars Figures riding a hoverboard, a skateboard, and a bicycle](img/cover_picture.jpg)
@@ -152,6 +152,18 @@ Put each one on a post-it provided
 
 Pick 3 things you normally do in the morning that you didn't do today
 
+-- cover
+
+###My morning - first draft
+
+![My morning - first pass](img/morning1.png)
+
+
+-- cover
+
+###My morning - revised
+![My morning - revised](img/morning2.png)
+
 --
 
 ###Users
@@ -163,6 +175,20 @@ Who are the Actors/Users in your morning routine?
 ###Build Activity Groups
 
 Sometimes several tasks can be grouped together. 
+
+
+-- cover
+
+
+###My morning - with activity groups
+
+![My morning - with activity groups](img/morning3.png)
+
+
+-- cover
+
+###My morning - alternate path
+![My morning - first pass](img/morning4.png)
 
 --
 
