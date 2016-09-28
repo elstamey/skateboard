@@ -346,7 +346,7 @@ With this product, they can have test data, begin testing it for load, and see h
 --
 ###Scholarships
 
-
+![Engineering Foundation allocates funds to the Scholarships, the Selection Committee chooses the best candidates and the Financial Aid Office disburses the money to students each semester](img/scholarships_overview.jpg)
 
 --
 
