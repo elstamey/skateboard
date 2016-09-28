@@ -22,11 +22,11 @@ photo by [Kenny Louie(https://www.flickr.com/photos/kwl/)
 #Emily Stamey
 Application Developer at NC State University
 
+![developer](img/developer.png)
 ![NC State University logo](img/ncsu_block_s.png)
 
 
 ![crochet hooks](img/crochet.png)
-![developer](img/developer.png)
 ![family](img/family.png)
 ![kayak](img/kayak.png)
 ![rollerskate](img/skate_icon.png)
