@@ -42,11 +42,12 @@ Application Developer at NC State University
 
 --
 
-###A Typical MVP Strategy
+###A Typical Project Workflow
 
-* Build a prototype
-* Break the prototype into components or parts 
-* Develop over several months
+* Research features and needs
+* Build a prototype or wireframes
+* Break the project into components or parts for implementation 
+* Develop each over several months
 * At each release, deliver something unusable/incomplete
 * Finally learn if the big guess of the prototype was correct
 * Changes are much more costly, so most are left alone
