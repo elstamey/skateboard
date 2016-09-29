@@ -23,12 +23,13 @@ blockquote.style4 {
 }
 
 .slide-me {
-    background-color: #F05B62;
-    color: white;
+    /*background-color: #F05B62;*/
+    /*color: white;*/
+    margin: 0 0 0 0;
 }
 
 .slide-me h3, .slide-me a {
-    color: white;
+    /*color: white;*/
 }
 
 .choose1 li:nth-child(1)  p:first-of-type ,

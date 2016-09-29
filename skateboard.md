@@ -56,10 +56,9 @@ Application Developer at NC State University
 
 ###Learning Objectives
 
-1. How to story map
-2. Sketch a narrative flow
-3. Goal-based prioritization
-4. Critique the Scholarships story map
+1. What is a story map, and why would you want to use it?
+2. Sketch a simple narrative flow
+3. Critique the Scholarships story map
 
 --
 
@@ -245,10 +244,6 @@ If you cannot elaborate, mark it and revisit
 2. Frame the structure by labeling the backbone activities and the walking skeleton
 3. Loosely prioritize stories based on everyone's needs; lower priorities sink
 
-
-
-
-
 --
 
 ###What you get from this
@@ -368,9 +363,21 @@ With this product, they can have test data, begin testing it for load, and see h
 
 ![Bottom of Story Map](img/story_map3.jpg)
 
+
+
+---------
+
+###Summary
+
+* A tool you can use with non-technical subject matter experts, customers, etc
+* A visual guide for managing your workload
+* Focus on objectives when you prioritize
+* Plan to deliver a useable product at each deliverable 
+
 --
 
-Questions
+#Questions?
+
 
 --
 
