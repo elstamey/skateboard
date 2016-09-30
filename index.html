@@ -49,6 +49,13 @@
 
         </section>
         <section>
+            <h4 id="ripped-from-the-pages-of-not-really-">Ripped from the pages of (not really)</h4>
+            <p><img src="img/book.jpg" alt="User Story Mapping by Jeff Patton"></p>
+            <aside class="notes">
+                We're going to talk about a lot of really helpful ideas I've gleaned from this book.  My map examples will be more trivial than what he shares, because I was nervous I could fit them readably on the slides.  There is a lot that you can learn from this book.  He shares a lot of project stories, successes and losses, so I recommend it.  I'm going to share with you the biggest ideas that helped us change our strategies.
+            </aside>
+        </section>
+        <section>
             <h1 id="emily-stamey">Emily Stamey</h1>
             <p>Application Developer at NC State University</p>
             <p><img src="img/developer.png" alt="developer">
@@ -59,14 +66,11 @@
                 <img src="img/skate_icon.png" alt="rollerskate">
                 <img src="img/violin.png" alt="violin"></p>
 
-        </section>
-        <section>
-            <h4 id="ripped-from-the-pages-of-not-really-">Ripped from the pages of (not really)</h4>
-            <p><img src="img/book.jpg" alt="User Story Mapping by Jeff Patton"></p>
+            <aside class="notes">
+                Just a few fun facts about me: I've been writing PHP since 1999. I've also got a lot of hobbies.  I spend time with my family; we hike and paddle; I like to make things like blankets, silly costumes, and music.  And I'm a retired Carolina Rollergirl.<br><br>
 
-        </section>
-        <section>
-
+                I'm also a developer at NC State.  We maintain about 70 legacy PHP applications that support the Business of the College of Engineering.  We have reduced that from about 90 applications 3.5 yrs ago when I joined the team, and we only have 3 fulltime developers tasked with this.
+            </aside>
         </section>
         <section>
             <h3 id="a-typical-project-workflow">A Typical Project Workflow</h3>
@@ -79,7 +83,9 @@
                 <li>Finally learn if the big guess of the prototype was correct</li>
                 <li>Changes are much more costly, so most are left alone</li>
             </ul>
-
+            <aside class="notes">
+                Historically, we would have a brief meeting with the customer where we discussed client needs.  Then, we developed for a few months and delivered something that solved a problem, but didn't always solve THEIR problems or fulfill a need.  As we noticed this, we were looking for techniques to improve our communication and effectiveness.  User Story Mapping taught us a lot of things.
+            </aside>
         </section>
         <section>
             <h3 id="learning-objectives">Learning Objectives</h3>
@@ -88,36 +94,58 @@
                 <li>Sketch a simple narrative flow</li>
                 <li>Critique the Scholarships story map</li>
             </ol>
-
+            <aside class="notes">
+                Today we're going to cover the broad strokes of how user story maps work and the bigger ideas that can help you transform the way your team works.  <br><br>
+                We're going to use a simple example to learn about building the story of your application.  And I will show you a simple map that illustrates a project I'm working on.
+            </aside>
         </section>
         <section>
             <h3 id="what-is-a-story-map-">What is a Story Map?</h3>
             <p>A diagram of a project that tells the story of the people and systems involved in a process.</p>
             <p>Detail is added as we learn more about the project</p>
             <p>The map can be built for an existing application or a new application.</p>
+            <aside class="notes">
+                <li>A visual of the application and the processes that happen inside and outside of your application.</li>
+                <li>It highlights areas where you need to know more, and allows you to investigate that before you begin implementing.</li>
+                <li>This technique works for new and existing projects of any size.</li>
+            </aside>
         </section>
         <section>
             <p><img src="img/user_story_map.png" alt="Anatomy of a User Story Map"></p>
-
+            <aside class="notes">
+                Structurally, your map will look a bit like this.
+                The story flows from left to right
+                Details and steps are built from the top down.
+                You can involve user types that are users of the application or even a background system process
+                When we get the full story described, we will begin to slice it.  But we'll talk about that soon.
+            </aside>
         </section>
         <section>
             <h3 id="who-should-story-map-">Who should Story Map?</h3>
             <p>Anyone who knows the process ... Not Just Developers</p>
             <p>At least one knowledgeable person from each group of stakeholders</p>
-
+            <aside class="notes">
+                Who do you want to bring to your story mapping discussion?
+                Anyone who knows the processes you're automating.
+                The room should actually have fewer programmers in the beginning unless they are there to ask questions.  Developers shouldn't fill in the story.  You cannot learn what your application is doing or supposed to be doing from people who don't use it to solve a problem they have.
+            </aside>
         </section>
         <section>
             <h3 id="when-to-story-map-">When to Story Map?</h3>
             <p>*When you have questions about an application or process</p>
             <p>*When you begin new work</p>
             <p>*Preferably before you being development</p>
-
+            <aside class="notes">
+                Any time you are doing work and don't know the business process behind it.  The application can already exist, and you can use this to discover how new features or fixes should be implemented.
+            </aside>
         </section>
         <section>
             <h3 id="why-story-map-">Why Story Map?</h3>
-            <p><em>Build shared understanding
-            </em>Encourage full discovery before prototyping
-                *Prioritize work to be done as a group</p>
+            <ul>
+                <li><em>Build shared understanding</em></li>
+                <li>Encourage full discovery before prototyping</li>
+                <li>Prioritize work to be done as a group</li>
+            </ul>
             <p><strong>*Lowers problems with estimates and feature creep</strong></p>
 
         </section>
@@ -161,7 +189,7 @@
         </section>
         <section>
             <h3 id="my-morning-first-draft">My morning - first draft</h3>
-            <p><img src="img/morning1.png" alt="My morning - first pass"></p>
+            <p><a href="img/morning1.png"><img src="img/morning1.png" alt="My morning - first pass"></a></p>
 
         </section>
         <section>
@@ -213,33 +241,31 @@
         <section>
             <h3 id="clarifying-questions">Clarifying Questions</h3>
             <ul>
-                <li>What could we learn to replace <strong>risk</strong> information</li>
-                <li>Do you really know what has been mapped, or did you fill in with <strong>assumptions</strong>.</li>
-                <li>Are you sure about the story your are telling?</li>
-            </ul>
-
-        </section>
-        <section>
-            <h3 id="anatomy-of-a-story-map">Anatomy of a Story Map</h3>
-            <ul>
-                <li><p>Users =&gt; actors in the story</p>
-                </li>
-                <li><p>Backbone =&gt; user activities</p>
-                </li>
-                <li><p>Walking Skeleton =&gt; major user tasks</p>
-                </li>
-                <li><p>User Stories =&gt; add detail to the story</p>
-                </li>
-                <li><p>Releases =&gt; organize and prioritize stories</p>
-                </li>
-                <li><p>Priorities =&gt; Lower Priority stories sink to the bottom</p>
-                </li>
+                <li>What could we learn to replace <strong>risk</strong> with <strong>REAL</strong> information?</li>
+                <li>Do we <u>really</u> know what has been mapped, or did we fill in <strong>assumptions</strong>?</li>
+                <li>Are you sure about the story you're telling?</li>
             </ul>
 
         </section>
         <section>
             <p><img src="img/user-story-mapping-6-638.jpg" alt="Anatomy of a User Story Map"></p>
-
+            <aside class="notes">
+                <p>Anatomy of a Story Map</p>
+                <ul>
+                    <li><p>Users =&gt; actors in the story</p>
+                    </li>
+                    <li><p>Backbone =&gt; user activities</p>
+                    </li>
+                    <li><p>Walking Skeleton(blue) =&gt; major user tasks</p>
+                    </li>
+                    <li><p>User Stories =&gt; add detail to the story</p>
+                    </li>
+                    <li><p>Releases =&gt; organize and prioritize stories</p>
+                    </li>
+                    <li><p>Priorities =&gt; Lower Priority stories sink to the bottom</p>
+                    </li>
+                </ul>
+            </aside>
         </section>
         <section>
             <h3 id="building-the-map">Building the map</h3>
@@ -250,10 +276,7 @@
             </ol>
 
         </section>
-        <section>
-            <h3 id="what-you-get-from-this">What you get from this</h3>
 
-        </section>
         <section>
             <h3 id="thorough-discovery">Thorough Discovery</h3>
             <ul>
@@ -418,6 +441,10 @@
             <p>Composed of many user stories.</p>
             <p>Tells the story of your application.  </p>
             <p>It can include parts of the story that happen outside of the application.</p>
+
+        </section>
+        <section>
+            <h3 id="what-you-get-from-this">What you get from this</h3>
 
         </section>
         <section>
