@@ -87,20 +87,21 @@ At least one knowledgeable person from each group of stakeholders
 
 ###When to Story Map?
 
-*When you have questions about an application or process
+* When you have questions about an application or process
 
-*When you begin new work
+* When you begin new work
 
-*Preferably before you being development
+* Preferably before you being development
+
 --
 
 ###Why Story Map?
 
-*Build shared understanding
-*Encourage full discovery before prototyping
-*Prioritize work to be done as a group
+* Build shared understanding
+* Encourage full discovery before prototyping
+* Prioritize work to be done as a group
 
-***Lowers problems with estimates and feature creep** 
+* **Lowers problems with estimates and feature creep** 
 
 -- cover
 
@@ -301,7 +302,7 @@ Discovery is cheaper at the beginning of a project, than during implementation
 Before we get too deep into the prototype, let's talk more about releasing valuable features every time.
 
 A lot of times we look at the flow of the story and plan features in a chronological order
---
+
 --
 
 ###When we build in parts
